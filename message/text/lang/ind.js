@@ -1011,6 +1011,6 @@ wa.me/+6281294958473 (Slavyan)
 
 Gracias!
 
-- Slavyan
+- Slavyan y Orumaito
     `
 }
