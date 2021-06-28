@@ -972,7 +972,12 @@ Penalización: *BLOQUEO PERMANENTE*
 Si comprende estas reglas, escriba *${prefix}menu* para empezar.
 
 Dueño:
-wa.me/+525518064309 (Orumaito)
+wa.me/51966653383 (𝕻𝖎𝖐𝖊𝖓𝖓𝖞 𝖂𝖍𝖎𝖙𝖊)
+
+
+
+Traductor De La Base:
+wa.me/525518064309 (Orumaito)
 
 Código fuente de:
 wa.me/+6281294958473 (Slavyan)
@@ -995,6 +1000,10 @@ https://github.com/AllMightHero/WaifuBot
 Personas de contacto:
 
 Dueño:
+
+wa.me/51966653383 (𝕻𝖎𝖐𝖊𝖓𝖓𝖞 𝖂𝖍𝖎𝖙𝖊)
+
+Traductor De La Base:
 wa.me/+525518064309 (Orumaito)
 
 (Desarrollador) 
