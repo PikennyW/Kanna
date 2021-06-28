@@ -3,11 +3,11 @@ const fs = require('fs-extra')
 const { prefix, ownerNumber } = JSON.parse(fs.readFileSync('config.json'))
 
 exports.wait = () => {
-    return `Por favor espera un momento~`
+    return `Por favor espera un momento💕`
 }
 
 exports.ok = () => {
-    return `Listo~`
+    return `Listo💕`
 }
 
 exports.wrongFormat = () => {
@@ -23,15 +23,15 @@ exports.cmdNotFound = (cmd) => {
 }
 
 exports.blocked = () => {
-    return `WaifuBot no recibe llamadas. ¡Seras bloqueado por romper las reglas!\n\nContacta al propietario: wa.me/${ownerNumber.replace('@c.us', '')}`
+    return `𝓚𝓪𝓷𝓷𝓪 no recibe llamadas. ¡Serás bloqueado por romper las reglas!\n\nContacta al propietario: wa.me/${ownerNumber.replace('@c.us', '')}`
 }
 
 exports.ownerOnly = () => {
-    return `¡Este comando solo Orumaito-sama puede usarlo!`
+    return `¡Este comando solo 𝕻𝖎𝖐𝖊𝖓𝖓𝖞 𝖂𝖍𝖎𝖙𝖊 puede usarlo!`
 }
 
 exports.doneOwner = () => {
-    return `Hecho, Orumaito-sama~`
+    return `Hecho, 𝕻𝖎𝖐𝖊𝖓𝖓𝖞 𝖂𝖍𝖎𝖙𝖊~`
 }
 
 exports.groupOnly = () => {
@@ -67,7 +67,7 @@ exports.nhFalse = () => {
 }
 
 exports muteChatOn = () => {
-    return `Entendido, ignorare los comandos de este grupo!`
+    return `Entendido, ignoraré los comandos de este grupo!`
 }
 
 exports muteChatOnAlready = () => {
@@ -83,7 +83,7 @@ exports.listBlock = (blockNumber) => {
 }
 
 exports.notPremium = () => {
-    return `¡Perdon! Este comando solo puede ser utilizado por usuarios premium.`
+    return `¡Perdón! Este comando solo puede ser utilizado por usuarios premium.`
 }
 
 exports.notAdmin = () => {
@@ -151,7 +151,7 @@ exports.profile = (username, status, premi, benet, adm) => {
 }
 
 exports.detectorOn = (name, formattedTitle) => {
-    return `*「 ANTI LINKS DE GRUPOS 」*\n\nAnuncio para todos los miembros del grupo de ${(name || formattedTitle)}\nSi alguien envia un enlace de grupo en este grupo, sera expulsado automáticamente por WaifuBot.\n\nGracias.\n- Admin ${(name || formattedTitle)}`
+    return `*「 ANTI LINKS DE GRUPOS 」*\n\nAnuncio para todos los miembros del grupo de ${(name || formattedTitle)}\nSi alguien envia un enlace de grupo en este grupo, sera expulsado automáticamente por 𝓚𝓪𝓷𝓷𝓪.\n\nGracias.\n- Admin ${(name || formattedTitle)}`
 }
 
 exports.detectorOff = () => {
