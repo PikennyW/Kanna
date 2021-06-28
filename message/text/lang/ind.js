@@ -3,11 +3,11 @@ const fs = require('fs-extra')
 const { prefix, ownerNumber } = JSON.parse(fs.readFileSync('config.json'))
 
 exports.wait = () => {
-    return `Por favor espera un momento💕`
+    return `Por favor espera un momento~`
 }
 
 exports.ok = () => {
-    return `Listo💕`
+    return `Listo~`
 }
 
 exports.wrongFormat = () => {
