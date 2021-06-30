@@ -23,15 +23,15 @@ exports.cmdNotFound = (cmd) => {
 }
 
 exports.blocked = () => {
-    return `WaifuBot no recibe llamadas. ¡Seras bloqueado por romper las reglas!\n\nContacta al propietario: wa.me/${ownerNumber.replace('@c.us', '')}`
+    return `Kanna no recibe llamadas. ¡Seras bloqueado por romper las reglas!\n\nContacta al propietario: wa.me/${ownerNumber.replace('@c.us', '')}`
 }
 
 exports.ownerOnly = () => {
-    return `¡Este comando solo Orumaito-sama puede usarlo!`
+    return `¡Este comando solo Pikenny puede usarlo!`
 }
 
 exports.doneOwner = () => {
-    return `Hecho, Orumaito-sama~`
+    return `Hecho, Pikenny~`
 }
 
 exports.groupOnly = () => {
@@ -151,7 +151,7 @@ exports.profile = (username, status, premi, benet, adm) => {
 }
 
 exports.detectorOn = (name, formattedTitle) => {
-    return `*「 ANTI LINKS DE GRUPOS 」*\n\nAnuncio para todos los miembros del grupo de ${(name || formattedTitle)}\nSi alguien envia un enlace de grupo en este grupo, sera expulsado automáticamente por WaifuBot.\n\nGracias.\n- Admin ${(name || formattedTitle)}`
+    return `*「 ANTI LINKS DE GRUPOS 」*\n\nAnuncio para todos los miembros del grupo de ${(name || formattedTitle)}\nSi alguien envia un enlace de grupo en este grupo, sera expulsado automáticamente por Kanna.\n\nGracias.\n- Admin ${(name || formattedTitle)}`
 }
 
 exports.detectorOff = () => {
@@ -844,7 +844,7 @@ _Indice de menu [8]_
 exports.menuOwner = () => {
     return `
 -----[ DUEÑO ]-----
-Hola Orumaito-sama ヽ(・∀・)ﾉ!
+Hola Pikenny (◡ ω ◡)!
 
 1. *${prefix}bcgroup*
 Haz una transmisión.
@@ -936,7 +936,7 @@ Mandare un audio 7u7
 Uso: Baka , Senpai , Onichan , Buenos dias, Test, Sawarasenai, Yamete, No chupala
 
 19. *Musica Random*
-Las favoritas de Orumaito
+Las favoritas de Pikenny
 Uso: Hentai, 
 
 _Indice de menu [9]_
@@ -966,10 +966,10 @@ exports.rules = () => {
 -----[ REGLAS ]-----
 
 1. NO envíe spam al bot. 
- Penalización: *ADVERTENCIA / BLOQUEO TEMPORAL*
+ Penalización: *BLOQUEO PERMANENTE*
  
 2. NO LLAME/TEXTEE AL BOT
-Penalización: *BLOQUEO TEMPORAL*
+Penalización: *BLOQUEO PERMANENTE*
 
 3. No abuse del bot.
 Penalización: *BLOQUEO PERMANENTE*
@@ -980,6 +980,9 @@ Penalización: *BLOQUEO PERMANENTE*
 Si comprende estas reglas, escriba *${prefix}menu* para empezar.
 
 Dueño:
+wa.me/+5196653383 (Pikenny)
+
+Traductor De La Base:
 wa.me/+525518064309 (Orumaito)
 
 Código fuente de:
@@ -1003,6 +1006,9 @@ https://github.com/AllMightHero/WaifuBot
 Personas de contacto:
 
 Dueño:
+wa.me/+51966653383 (Pikenny)
+
+Traductor De La Base:
 wa.me/+525518064309 (Orumaito)
 
 (Desarrollador) 
@@ -1010,6 +1016,6 @@ wa.me/+6281294958473 (Slavyan)
 
 Gracias!
 
-- Slavyan
+- Slavyan y Orumaito
     `
 }
