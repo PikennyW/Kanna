@@ -23,8 +23,8 @@ module.exports = class Exif {
         if (!filename) filename = 'data'
         const json = {
             'sticker-pack-id': packID,
-            'sticker-pack-name': packname,
-            'sticker-pack-publisher': authorname,
+            'sticker-pack-Kanna': packname,
+            'sticker-pack-Luna x Pikenny': authorname,
             'android-app-store-link': playstore,
             'ios-app-store-link': itunes
         }
