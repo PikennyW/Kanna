@@ -23,15 +23,15 @@ exports.cmdNotFound = (cmd) => {
 }
 
 exports.blocked = () => {
-    return `𝓚𝓪𝓷𝓷𝓪 no recibe llamadas. ¡Serás bloqueado por romper las reglas!\n\nContacta al propietario: wa.me/${ownerNumber.replace('@c.us', '')}`
+    return `Kanna no recibe llamadas. ¡Serás bloqueado por romper las reglas!\n\nContacta al propietario: wa.me/${ownerNumber.replace('@c.us', '')}`
 }
 
 exports.ownerOnly = () => {
-    return `¡Este comando solo 𝕻𝖎𝖐𝖊𝖓𝖓𝖞 𝖂𝖍𝖎𝖙𝖊 puede usarlo!`
+    return `¡Este comando solo Pikenny puede usarlo!`
 }
 
 exports.doneOwner = () => {
-    return `Hecho, 𝕻𝖎𝖐𝖊𝖓𝖓𝖞 𝖂𝖍𝖎𝖙𝖊~`
+    return `Hecho, Pikenny~`
 }
 
 exports.groupOnly = () => {
